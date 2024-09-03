@@ -12,7 +12,7 @@ public class Criptografia{
 		Scanner in = new Scanner(System.in);
 
 		int chave = 3;
-		FileWriter writer = new FileWriter("/home/desjoao/LPII/crypto.txt");
+		FileWriter writer = new FileWriter("[INSIRA O DIRETÓRIO AQUI]");
 
 		String texto = in.nextLine();
 
@@ -31,7 +31,7 @@ public class Criptografia{
 
 		writer.close();
 
-		File file = new File ("/home/desjoao/LPII/crypto.txt");
+		File file = new File ("[INSIRA O DIRETÓRIO AQUI]");
 
 		Scanner scan = new Scanner(file);
 
