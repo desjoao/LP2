@@ -9,7 +9,7 @@ public class FileReader{
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 
 
-		File file = new File("/home/desjoao/LPII/exemplo.txt");
+		File file = new File("[INSIRA O DIRETÓRIO AQUI]");
 		Scanner scan = new Scanner(file);
 
 		while(scan.hasNextLine()){
@@ -21,7 +21,7 @@ public class FileReader{
 			fileContent = fileContent.concat(scan.nextLine() + "\n");
 		}
 
-		FileWriter writer = new FileWriter("/home/desjoao/LPII/exemplo_escrita.txt");
+		FileWriter writer = new FileWriter("[INSIRA O DIRETÓRIO AQUI]");
 		writer.write(fileContent);
 		writer.close();
 
